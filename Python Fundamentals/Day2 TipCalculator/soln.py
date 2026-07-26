@@ -1,0 +1,7 @@
+print("Welcome to the Tip Calculator\n")
+total_ordered =float(input("Enter the amount of your bill:"))
+tip= float(input("Enter the amount of tip (like 1,5,12,45 ..):"))
+number_of_people = int(input("Enter the number of people :"))
+total_bill = total_ordered + (total_ordered*tip/100)
+each_bill = round(total_bill/number_of_people,2)
+print( f"your each will pay {each_bill} ")
